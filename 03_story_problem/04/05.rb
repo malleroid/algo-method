@@ -1,4 +1,2 @@
-N=gets.to_i
-S=readlines.map(&:chomp)
-
-puts S.each.count{|s| s==s.reverse}
+M,K=gets.split.map(&:to_i)
+puts M.fdiv(K).ceil

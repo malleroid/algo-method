@@ -1,3 +1,1 @@
-S=gets.chomp
-
-puts S==S.reverse ? 'Yes' : 'No'
+puts 331.fdiv(6).ceil

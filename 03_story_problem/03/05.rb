@@ -1,4 +1,1 @@
-S=gets.chomp
-T=gets.chomp
-
-puts S.include?(T) ? 'Yes' : 'No'
+puts '11:'+format('%02d',13-(180%13))
